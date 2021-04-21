@@ -30,7 +30,7 @@ class InstanceIntialization{
 		age=age+7;   
 		return age; // returns 7 and no null object because int is primitive and null cannot be assigned to primitive..
 	}
-	public static void main() {
+	public static void main(String[] args) {
 		InstanceIntialization ii= new InstanceIntialization();
 		System.out.println(ii.doggiename());
 		System.out.println(ii.doggiage());

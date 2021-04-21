@@ -14,7 +14,8 @@ public class Reverse {
 			
 			
 		}
-		System.out.println(s);
+		String s1= new String(s);
+		System.out.println(s1);
 	}
 
 }

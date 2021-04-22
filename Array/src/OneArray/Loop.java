@@ -8,7 +8,7 @@ public class Loop {
 		array[2]=30;
 		array= new int[4];// here one more object...==> total 2 objects but variable array is pointed to new object 
 		// so the first object is for"GC"
-		System.out.println(array.length); //  
+//		System.out.println(array.length); //  
 		
 		//object class array can have multiple data types...
 		 Object[] obj= new Object[3];

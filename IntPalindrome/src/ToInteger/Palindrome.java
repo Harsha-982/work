@@ -4,18 +4,20 @@ import java.util.Scanner;
 public class Palindrome {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		String s=sc.nextLine();
-		int m=s.length();
+		String string=sc.nextLine();
+		int m=string.length();
 		boolean flag=false;
 		for(int i=0;i<m/2;i++) {
-			if(s.charAt(i)==s.charAt(m-1-i)) {
+			if(string.charAt(i)==string.charAt(m-1-i)) {
 				flag=true;
 			
 			}
 		}
 		if(flag==true) 
-			System.out.println("Palindrome");
+			System.out.println("Given String "+ string +" is Palindrome");
 		else 
-			System.out.println("Not Palindrome");
+			System.out.println("Given String "+string + " is Not Palindrome");
+	
 	}
+	
 }
